@@ -1,9 +1,9 @@
-﻿/* Arraylerde ortalama, minimum, maksimum değerleri bulma */
+﻿/* Arraylerde ortalama, minimum, maksimum değerleri bulmak */
 
 Console.WriteLine("ÖRNEK 1");
 
 int[] array = { 30, 5, 60, 3, 7, 2, 8, 22 };
-Console.WriteLine("Mean, min, max bulunan array: " + string.Join(",", array));
+Console.WriteLine("Ortalama, minimum, maksimum bulunan array: " + string.Join(",", array));
 
 // Integer array'inin ortalamasını bulma
 int summation = 0;
@@ -58,11 +58,11 @@ else
 }
 int[] sumArray = new int[sumArrayLength];
 
-// Sum array elemanlarını bulma
 for (int i = 0; i < sumArray.Length; i++)
 {
     sumArray[i] = array1[i] + array2[i];
 }
+
 Console.WriteLine("Toplanan array 1: " + string.Join(",", array1));
 Console.WriteLine("Toplanan array 2: " + string.Join(",", array2));
 Console.WriteLine("Toplam array: " + string.Join(",", sumArray));
