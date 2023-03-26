@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-1", "Week-1\Week-1.csproj", "{651180AB-FF7D-428A-8B26-75CCE212DC14}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-2", "Week-2\Week-2.csproj", "{4A8D81EB-EFA4-4BE9-B94E-78C6C8D55367}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArraysAndLoops", "ArraysAndLoops", "{91D856FA-D550-460B-AA77-496D72BB39FC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PasswordStrength", "PasswordStrength", "{BC0902E5-2C3B-4B9F-97AF-F0DCC33BAACE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLoops", "ArraysAndLoops\ArraysAndLoops.csproj", "{639DFA8D-61BB-433F-B305-8E774277E986}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordStrength", "PasswordStrength\PasswordStrength.csproj", "{6EA39A81-54BE-4B98-8DA1-3EC764A41AED}"
@@ -21,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{651180AB-FF7D-428A-8B26-75CCE212DC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{651180AB-FF7D-428A-8B26-75CCE212DC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{651180AB-FF7D-428A-8B26-75CCE212DC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{651180AB-FF7D-428A-8B26-75CCE212DC14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A8D81EB-EFA4-4BE9-B94E-78C6C8D55367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A8D81EB-EFA4-4BE9-B94E-78C6C8D55367}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A8D81EB-EFA4-4BE9-B94E-78C6C8D55367}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A8D81EB-EFA4-4BE9-B94E-78C6C8D55367}.Release|Any CPU.Build.0 = Release|Any CPU
 		{639DFA8D-61BB-433F-B305-8E774277E986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{639DFA8D-61BB-433F-B305-8E774277E986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639DFA8D-61BB-433F-B305-8E774277E986}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{651180AB-FF7D-428A-8B26-75CCE212DC14} = {91D856FA-D550-460B-AA77-496D72BB39FC}
-		{4A8D81EB-EFA4-4BE9-B94E-78C6C8D55367} = {BC0902E5-2C3B-4B9F-97AF-F0DCC33BAACE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C438E3A3-678F-463E-A8FE-74E1A3969436}
