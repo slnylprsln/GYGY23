@@ -1,4 +1,4 @@
-﻿* * * İÇECEK OTOMATI * * *
+﻿İÇECEK OTOMATI
 
 Bu küçük OOP projesi bir içecek otomatına aittir ve oluşturulurken SOLID prensipleri göz önünde bulundurulmuştur.
 
