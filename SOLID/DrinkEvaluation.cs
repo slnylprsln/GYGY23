@@ -1,6 +1,6 @@
 ﻿namespace SOLID
 {
-    public class DrinkEvaluation
+    public class DrinkEvaluation : IDrinkEvaluation
     {
         public void Evaluate()
         {

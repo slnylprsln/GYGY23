@@ -1,6 +1,6 @@
 ﻿namespace SOLID
 {
-    public class Drink
+    public class Drink : IDrink, IDrinkEvaluation
     {
         public string Name { get; set; }
         public int Price { get; set; }
