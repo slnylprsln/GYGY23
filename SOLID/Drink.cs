@@ -4,13 +4,24 @@
     {
         public string Name { get; set; }
         public int Price { get; set; }
-        public Heat Heat { get; set; }
         public bool IsInStock { get; set; }
+
         public DrinkEvaluation DrinkEvaluation;
 
         public Drink()
         {
             DrinkEvaluation = new DrinkEvaluation();
+        }
+
+        public void ShowDrinks()
+        {
+            IDrinkRepository drinkRepository = DrinkFactory.Create();
+            List<Drink> allDrinks = drinkRepository.GetAllDrinks();
+            Console.WriteLine("Here is the drinks:");
+            foreach (Drink drink in allDrinks)
+            {
+                Console.WriteLine(drink.Name);
+            }
         }
 
         public void Caution(IHotBeverage hotBeverage)
@@ -40,12 +51,5 @@
         {
             DrinkEvaluation.Comment();
         }
-
-    }
-
-    public enum Heat
-    {
-        Hot,
-        Cold
     }
 }
