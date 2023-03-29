@@ -13,6 +13,14 @@
             DrinkEvaluation = new DrinkEvaluation();
         }
 
+        public void Caution(IHotBeverage hotBeverage)
+        {
+            if (hotBeverage.isHotBeverage())
+            {
+                Console.WriteLine("Be careful! Your drink is hot.");
+            }
+        }
+
         public virtual void Pour(int amount)
         {
             Console.WriteLine(amount + " mL drink is being poured...");
