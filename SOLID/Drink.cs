@@ -1,4 +1,5 @@
-﻿namespace SOLID
+﻿
+namespace SOLID
 {
     public class Drink : IDrink, IDrinkEvaluation
     {

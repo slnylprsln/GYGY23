@@ -1,10 +1,15 @@
 ﻿
 namespace SOLID
 {
-    public class Tea : Drink, IHotBeverage
+    public class Tea : Drink, IHotBeverage, ISugarAddable
     {
         public string Flavor { get; set; }
         public bool SugarOrNot { get; set; }
+
+        public void AddSugar()
+        {
+            Console.WriteLine("Extra sugar is added to your tea!");
+        }
 
         public bool isHotBeverage()
         {
