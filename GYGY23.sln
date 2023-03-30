@@ -11,12 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayHangman", "PlayHangman\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContravariance", "CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{6B1BE946-9668-4DB2-AF36-CD649728EBCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{39E1FE54-2E56-49F2-AA70-F59131781410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{39E1FE54-2E56-49F2-AA70-F59131781410}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7B170A4-108B-4988-9331-89DB4D7D601A}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationLiskov", "ReservationLiskov\ReservationLiskov.csproj", "{B6A89528-0A96-4B58-BFB8-200FB6193226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{39E1FE54-2E56-49F2-AA70-F59131781410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39E1FE54-2E56-49F2-AA70-F59131781410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39E1FE54-2E56-49F2-AA70-F59131781410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A89528-0A96-4B58-BFB8-200FB6193226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A89528-0A96-4B58-BFB8-200FB6193226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A89528-0A96-4B58-BFB8-200FB6193226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A89528-0A96-4B58-BFB8-200FB6193226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
