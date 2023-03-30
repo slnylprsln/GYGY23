@@ -1,7 +1,7 @@
 ﻿
 namespace ReservationLiskov
 {
-    public class CarReservation : Reservation, IPaymentCalcutable
+    public class CarReservation : Reservation, IPaymentCalculable
     {
         public string? CarBrand;
         public string? CarLicensePlate;

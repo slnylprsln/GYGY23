@@ -1,7 +1,7 @@
 ﻿
 namespace ReservationLiskov
 {
-    public class SeminarRoomReservation : Reservation, IPaymentCalcutable
+    public class SeminarRoomReservation : Reservation, IPaymentCalculable
     {
         public string? SeminarRoomName;
         public int SeminarRoomCapacity;

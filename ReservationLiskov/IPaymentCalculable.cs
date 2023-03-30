@@ -1,7 +1,7 @@
 ﻿
 namespace ReservationLiskov
 {
-    public interface IPaymentCalcutable
+    public interface IPaymentCalculable
     {
         public void CalculatePayment();
     }
